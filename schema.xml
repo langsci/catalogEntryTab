@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schema SYSTEM "../../../lib/pkp/dtd/xmlSchema.dtd">
+
+<!--
+ * plugins/generic/catalogEntryTab/schema.xml
+ *
+ * Copyright (c) 2016 Language Science Press
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ */
+-->
+
+<schema version="0.2">
+
+	<!--
+	 *
+	 * TABLE langsci_unregistered_users
+	 *
+	 -->
+	<table name="langsci_review_links">
+		<field name="review_id" type="I8">
+			<KEY/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="submission_id" type="I8">
+			<NOTNULL/>
+		</field>
+		<field name="reviewer" type="C2" size="255"/>
+		<field name="money_code" type="C2" size="255"/>
+		<field name="date" type="C2" size="255"/>
+		<field name="link" type="C2" size="255">
+			<NOTNULL/>
+		</field>
+		<field name="link_name" type="C2" size="255">
+			<NOTNULL/>
+		</field>
+		<descr>List of review links.</descr>
+	</table>
+
+	<!--
+	 *
+	 * TABLE langsci_unregistered_users
+	 *
+	 -->
+	<table name="langsci_submission_links">
+		<field name="submission_id" type="I8">
+			<NOTNULL/>
+		</field>
+		<field name="link" type="C2" size="255">
+			<NOTNULL/>
+		</field>
+		<field name="link_name" type="C2" size="255">
+			<NOTNULL/>
+		</field>
+		<descr>List of submission links.</descr>
+	</table>
+
+</schema>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

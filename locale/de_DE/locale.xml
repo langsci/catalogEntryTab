@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/catalogEntryTab/locale/de_DE/locale.xml
+  *
+  * Copyright (c) 2016 Language Science Press
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the de_DE (German) locale.
+  -->
+
+<locale name="de_DE" full_name="German">
+
+	<message key="plugins.generic.catalogEntryTab.displayName">Catalog Entry Tab Plugin</message>
+	<message key="plugins.generic.catalogEntryTab.description">Fügt dem Katalogentrag ein Tab für zusätzliche Daten hinzu.</message>
+	<message key="plugins.generic.catalogEntryTab.coverlinks">Links zum Buchverkauf</message>	
+	<message key="plugins.generic.catalogEntryTab.coverlinks.soft">Softcover</message>	
+	<message key="plugins.generic.catalogEntryTab.coverlinks.hard">Hardcover</message>
+	<message key="plugins.generic.catalogEntryTab.additionalTab">Links</message>
+		
+	<message key="plugins.generic.catalogEntryTab.notification.addtionalDataSaved">Die Daten wurden gespeichert.</message>
+	<message key="plugins.generic.catalogEntryTab.reloadInstruction">Nach dem Ändern der Daten, erscheint die Tabelle leer. Klicken sie auf "Speichern", um die Daten neu zu laden.</message>
+
+<p></p>
+
+
+</locale>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

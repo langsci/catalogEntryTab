@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/catalogEntryTab/reviews/locale/en_US/locale.xml
+  *
+  * Copyright (c) 2016 Language Science Press
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  -->
+
+<locale name="en_US" full_name="U.S. English">
+
+	<message key="plugins.generic.catalogEntryTab.reviews.reviewer">Reviewer</message>	
+	<message key="plugins.generic.catalogEntryTab.reviews.moneyCode">Money code</message>
+	<message key="plugins.generic.catalogEntryTab.reviews.date">Submission date</message>
+	<message key="plugins.generic.catalogEntryTab.reviews.lable.date">Submission date (YYYYMMDD)</message>
+	<message key="plugins.generic.catalogEntryTab.reviews.link">Link</message>
+	<message key="plugins.generic.catalogEntryTab.reviews.linkName">Link name</message>
+	<message key="plugins.generic.catalogEntryTab.reviews.addReview">Add review</message>
+	<message key="plugins.generic.catalogEntryTab.reviews.tooltip.addReview">Add review</message>
+	<message key="plugins.generic.catalogEntryTab.reviews.title">Reviews</message>
+	<message key="plugins.generic.catalogEntryTab.reviews.noneCreated">No reviews yet.</message>
+	<message key="plugins.generic.catalogEntryTab.reviews.dateFormat">Date must be of the format YYYYMMDD</message>
+	<message key="plugins.generic.catalogEntryTab.reviews.urlFormat">Url not valid (http/https://...)</message>
+</locale>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
