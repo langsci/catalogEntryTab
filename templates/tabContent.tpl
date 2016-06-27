@@ -7,12 +7,10 @@
  * template for the content of the additional tab
  *}
 
-{capture assign=publicationFormId}publicationMetadataEntryForm-{$representationId}{/capture}
-
 <script type="text/javascript">
 	$(function() {ldelim}
 		// Attach the form handler.
-		$('#{$publicationFormId|escape:"javascript"}').pkpHandler(
+		$('#additionalTab').pkpHandler(
 			'$.pkp.controllers.modals.catalogEntry.form.PublicationFormatMetadataFormHandler',
 			{ldelim}
 				trackFormChanges: true
@@ -21,7 +19,7 @@
 	{rdelim});
 </script>
 
-<form class="pkp_form" id="{$publicationFormId|escape}" method="post" action="{url router=$smarty.const.ROUTE_COMPONENT op="saveForm"}">
+<form class="pkp_form" id="additionalTab" method="post" action="{url router=$smarty.const.ROUTE_COMPONENT op="saveForm"}">
 
 	<input type="hidden" name="submissionId" value="{$submissionId|escape}" />
 	<input type="hidden" name="stageId" value="{$stageId|escape}" />

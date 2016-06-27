@@ -46,11 +46,11 @@
 			{fbvElement type="text" label="plugins.generic.catalogEntryTab.reviews.moneyCode" id="moneyCode" value=$moneyCode maxlength="50" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
 		{/fbvFormSection}
 
-	{/fbvFormArea}
+		{fbvFormSection class="formButtons"}
+			{fbvElement type="submit" class="submitFormButton" id="saveButton" label="common.save"}
+		{/fbvFormSection}
 
-	{fbvFormSection class="formButtons"}
-		{fbvElement type="submit" class="submitFormButton" id=$buttonId label="common.save"}
-	{/fbvFormSection}
+	{/fbvFormArea}
 
 </form>
 <p><span class="formRequired">{translate key="common.requiredField"}</span></p>
