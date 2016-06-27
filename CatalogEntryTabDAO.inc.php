@@ -29,7 +29,7 @@ class CatalogEntryTabDAO extends DAO {
 			return null;
 		} else {
 			$row = $result->getRowAssoc(false);
-			$link = $this->convertFromDB($row['link']);				 
+			$link = $this->convertFromDB($row['link'],null);				 
 			$result->Close();
 			return $link;
 		}
