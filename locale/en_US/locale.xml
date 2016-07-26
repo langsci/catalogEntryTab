@@ -24,7 +24,7 @@
 	<message key="plugins.generic.catalogEntryTab.openReview.link1">Additional link to Hypothesis version (in case two files are needed).</message>
 	
 	<message key="plugins.generic.catalogEntryTab.notification.addtionalDataSaved">Data is saved.</message>
-	<message key="plugins.generic.catalogEntryTab.reloadInstruction">After changing the data the grid will appear empty, click "Save" to relaod.</message>
+	<message key="plugins.generic.catalogEntryTab.reloadInstruction">After changing the data the grid will appear empty, click "Save" to reload.</message>
 
 <p></p>
 
