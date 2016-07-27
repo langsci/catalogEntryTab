@@ -14,7 +14,7 @@
 
 	<!--
 	 *
-	 * TABLE langsci_unregistered_users
+	 * TABLE langsci_review_links
 	 *
 	 -->
 	<table name="langsci_review_links">
@@ -39,7 +39,7 @@
 
 	<!--
 	 *
-	 * TABLE langsci_unregistered_users
+	 * TABLE langsci_submission_links
 	 *
 	 -->
 	<table name="langsci_submission_links">
