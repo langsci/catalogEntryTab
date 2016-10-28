@@ -26,7 +26,7 @@
 			<NOTNULL/>
 		</field>
 		<field name="reviewer" type="C2" size="255"/>
-		<field name="money_quote" type="C2" size="255"/>
+		<field name="money_quote" type="X"/>		
 		<field name="date" type="C2" size="255"/>
 		<field name="link" type="C2" size="255">
 			<NOTNULL/>
