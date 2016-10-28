@@ -8,7 +8,7 @@ About
 This plugin adds a tab called "Links" to the Catalog Entry Form to enter additional data. 
 
 1. Links to where softcover and hardcover can be bought. 
-2. Data about addtional reviewers including reviewer's name, the review's link, link name, submission data and money code
+2. Data about addtional reviewers including reviewer's name, the review's link, link name, submission data and money quote
 
 
 License

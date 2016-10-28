@@ -65,7 +65,7 @@ class ReviewForm extends Form {
 
 			$this->setData('submissionId', $review->getSubmissionId());
 			$this->setData('reviewer', $review->getReviewer());
-			$this->setData('moneyCode', $review->getMoneyCode());
+			$this->setData('moneyQuote', $review->getMoneyQuote());
 			$this->setData('date', $review->getDate());
 			$this->setData('link', $review->getLink());
 			$this->setData('linkName', $review->getLinkName());
@@ -76,7 +76,7 @@ class ReviewForm extends Form {
 	 * Assign form data to user-submitted data.
 	 */
 	function readInputData() {
-		$this->readUserVars(array('reviewer','moneyCode','date','link','linkName','submissionId'));
+		$this->readUserVars(array('reviewer','moneyQuote','date','link','linkName','submissionId'));
 	}
 
 	/**
@@ -106,7 +106,7 @@ class ReviewForm extends Form {
 		}
 		$review->setSubmissionId($this->getData('submissionId'));
 		$review->setReviewer($this->getData('reviewer'));
-		$review->setMoneyCode($this->getData('moneyCode'));
+		$review->setMoneyQuote($this->getData('moneyQuote'));
 		$review->setDate($this->getData('date'));
 		$review->setLink($this->getData('link'));
 		$review->setLinkName($this->getData('linkName'));

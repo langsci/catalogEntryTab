@@ -39,9 +39,9 @@ class ReviewsGridCellProvider extends GridCellProvider {
 			case 'reviewer':
 				// The action has the label
 				return array('label' => $review->getReviewer());
-			case 'moneyCode':
+			case 'moneyQuote':
 				// The action has the label
-				return array('label' => $review->getMoneyCode());
+				return array('label' => $review->getMoneyQuote());
 			case 'date':
 				// The action has the label
 				return array('label' => $review->getDate());

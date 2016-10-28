@@ -43,7 +43,7 @@
 		{/fbvFormSection}
 
 		{fbvFormSection}
-			{fbvElement type="text" label="plugins.generic.catalogEntryTab.reviews.moneyCode" id="moneyCode" value=$moneyCode maxlength="50" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
+			{fbvElement type="text" label="plugins.generic.catalogEntryTab.reviews.moneyQuote" id="moneyQuote" value=$moneyQuote maxlength="50" inline=true multilingual=false size=$fbvStyles.size.MEDIUM}
 		{/fbvFormSection}
 
 		{fbvFormSection class="formButtons"}

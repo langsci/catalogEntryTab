@@ -13,7 +13,7 @@
 <locale name="en_US" full_name="U.S. English">
 
 	<message key="plugins.generic.catalogEntryTab.reviews.reviewer">Reviewer</message>	
-	<message key="plugins.generic.catalogEntryTab.reviews.moneyCode">Money code</message>
+	<message key="plugins.generic.catalogEntryTab.reviews.moneyQuote">Money quote</message>
 	<message key="plugins.generic.catalogEntryTab.reviews.date">Submission date</message>
 	<message key="plugins.generic.catalogEntryTab.reviews.lable.date">Submission date (YYYYMMDD)</message>
 	<message key="plugins.generic.catalogEntryTab.reviews.link">Link</message>

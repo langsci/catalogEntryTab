@@ -50,12 +50,12 @@ class Review extends DataObject {
 
 
 
-	function setMoneyCode($moneyCode) {
-		return $this->setData('moneyCode', $moneyCode);
+	function setMoneyQuote($moneyQuote) {
+		return $this->setData('moneyQuote', $moneyQuote);
 	}
 
-	function getMoneyCode() {
-		return $this->getData('moneyCode');
+	function getMoneyQuote() {
+		return $this->getData('moneyQuote');
 	}
 
 

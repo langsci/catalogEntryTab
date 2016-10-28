@@ -44,12 +44,12 @@ class ReviewsDAO extends DAO {
 	function insertObject($review) {
 
 		$this->update(
-			'INSERT INTO langsci_review_links (submission_id, reviewer, money_code, date,link,link_name)
+			'INSERT INTO langsci_review_links (submission_id, reviewer, money_quote, date,link,link_name)
 			VALUES (?,?,?,?,?,?)',
 			array(
 				$review->getSubmissionId(),
 				$review->getReviewer(),
-				$review->getMoneyCode(),
+				$review->getMoneyQuote(),
 				$review->getDate(),
 				$review->getLink(),
 				$review->getLinkName()
@@ -67,7 +67,7 @@ class ReviewsDAO extends DAO {
 			'UPDATE	langsci_review_links
 			SET submission_id = ?,
 				reviewer = ?,
-				money_code = ?,
+				money_quote = ?,
 				date = ?,
 				link = ?,
 				link_name = ?
@@ -75,7 +75,7 @@ class ReviewsDAO extends DAO {
 			array(
 				(int) $review->getSubmissionId(),
 				$review->getReviewer(),
-				$review->getMoneyCode(),
+				$review->getMoneyQuote(),
 				$review->getDate(),
 				$review->getLink(),
 				$review->getLinkName(),
@@ -106,7 +106,7 @@ class ReviewsDAO extends DAO {
 		$review->setId($row['review_id']);
 		$review->setSubmissionId($row['submission_id']);
 		$review->setReviewer($row['reviewer']);
-		$review->setMoneyCode($row['money_code']);
+		$review->setMoneyQuote($row['money_quote']);
 		$review->setDate($row['date']);
 		$review->setLink($row['link']);
 		$review->setLinkName($row['link_name']);
